@@ -3,8 +3,8 @@ import string
 from pymongo import ReturnDocument
 from pyrogram import Client, filters
 from pyrogram import enums
-from TEAMZYRO import ZYRO as app
-from TEAMZYRO import collection, user_collection, db, require_power
+from WAIFU import BOT as app
+from WAIFU import collection, user_collection, db, require_power
 
 redeem_collection = db["redeem_codes"]  # Collection for redeem codes
 
