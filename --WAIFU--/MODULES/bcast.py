@@ -1,7 +1,7 @@
 import asyncio
 from pyrogram import filters
 from pyrogram.errors import PeerIdInvalid, FloodWait
-from TEAMZYRO import user_collection, app, top_global_groups_collection, require_power
+from WAIFU import user_collection, app, top_global_groups_collection, require_power
 
 @app.on_message(filters.command("bcast"))
 @require_power("bcast")
