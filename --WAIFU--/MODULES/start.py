@@ -4,8 +4,8 @@ import random
 import time
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
-from TEAMZYRO import *
-from TEAMZYRO.unit.zyro_help import HELP_DATA  
+from WAIFU import *
+from WAIFU.unit.help import HELP_DATA  
 
 # 🔹 Function to Calculate Uptime
 START_TIME = time.time()
