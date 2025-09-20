@@ -12,7 +12,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from pyrogram import enums
 
-from WAIFU import APP as app
+from WAIFU import BOT as app
 
 OWNER_ID = [6474226725]
 EVAL = [6474226725]
