@@ -4,8 +4,8 @@ from html import escape
 from cachetools import TTLCache
 from telegram import Update, InlineQueryResultPhoto, InlineQueryResultVideo
 from telegram.ext import InlineQueryHandler, CallbackContext
-from TEAMZYRO import application
-from TEAMZYRO.unit.zyro_inline import *
+from WAIFU import application
+from WAIFU.unit.inline import *
 
 # Cache instances (shared with zyro_inline.py)
 all_characters_cache = TTLCache(maxsize=10000, ttl=300)
