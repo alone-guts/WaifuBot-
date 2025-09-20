@@ -86,12 +86,12 @@ user_guess_progress = {}
 normal_message_counts = {}  
 
 # -------------------------- POWER SETUP --------------------------------
-from TEAMZYRO.unit.zyro_ban import *
-from TEAMZYRO.unit.zyro_sudo import *
-from TEAMZYRO.unit.zyro_react import *
-from TEAMZYRO.unit.zyro_log import *
-from TEAMZYRO.unit.zyro_send_img import *
-from TEAMZYRO.unit.zyro_rarity import *
+from WAIFU.unit.ban import *
+from WAIFU.unit.sudo import *
+from WAIFU.unit.react import *
+from WAIFU.unit.log import *
+from WAIFU.unit.send_img import *
+from WAIFU.unit.rarity import *
 # ------------------------------------------------------------------------
 
 async def PLOG(text: str):
