@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pymongo import MongoClient
-from TEAMZYRO import app, user_collection
+from WAIFU import BOT, user_collection
 
 @app.on_message(filters.command("fav"))
 async def fav_command(client, message):
