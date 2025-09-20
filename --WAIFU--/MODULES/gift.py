@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.enums import ParseMode  # Import the correct ParseMode enum
 
-from TEAMZYRO import user_collection, ZYRO
+from WAIFU import user_collection, BOT
 
 # Dictionary to store pending gifts
 pending_gifts = {}
