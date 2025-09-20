@@ -1,7 +1,7 @@
 import random
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from TEAMZYRO import user_collection, app, GLOG
+from WAIFU import user_collection, app, GLOG
 
 
 async def send_log_message(chat_id: int, message: str):
