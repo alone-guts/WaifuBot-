@@ -5,11 +5,11 @@ import html
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from TEAMZYRO import (app, PHOTO_URL, OWNER_ID,
+from WAIFU import (app, PHOTO_URL, OWNER_ID,
                       user_collection, top_global_groups_collection, 
                       group_user_totals_collection)
 
-from TEAMZYRO import sudo_users as SUDO_USERS
+from WAIFU import sudo_users as SUDO_USERS
 
 # Global Leaderboard Command
 @app.on_message(filters.command("TopGroups"))
