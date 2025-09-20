@@ -1,4 +1,4 @@
-from TEAMZYRO import *
+from WAIFU import *
 from telegram import Update
 from telegram.ext import CommandHandler, CallbackContext, MessageHandler, filters, ContextTypes
 import asyncio
