@@ -3,7 +3,7 @@ from pymongo import MongoClient
 import os
 import asyncio
 import bson
-from TEAMZYRO import app
+from WAIFU import app
 
 def calculate_collection_size(documents):
     """
