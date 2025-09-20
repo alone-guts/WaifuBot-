@@ -3,8 +3,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
 import asyncio
 import html
-from TEAMZYRO import app as Client
-from TEAMZYRO import user_collection, top_global_groups_collection
+from WAIFU import app as Client
+from WAIFU import user_collection, top_global_groups_collection
 
 PHOTO_URL = ["https://files.catbox.moe/20xca5.jpg"]  
 
