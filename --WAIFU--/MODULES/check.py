@@ -1,4 +1,4 @@
-from TEAMZYRO import app, collection as character_collection, user_collection
+from WAIFU import app, collection as character_collection, user_collection
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
