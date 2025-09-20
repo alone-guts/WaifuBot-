@@ -1,4 +1,4 @@
-from TEAMZYRO import app, collection
+from WAIFU import app, collection
 from pyrogram import filters, enums
 
 @app.on_message(filters.command("rarity"))
