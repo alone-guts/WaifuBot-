@@ -13,7 +13,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaPhoto
 from motor.motor_asyncio import AsyncIOMotorClient
 
-from TEAMZYRO import *
+from WAIFU import *
 
 shops_collection = db["shops"]
 
