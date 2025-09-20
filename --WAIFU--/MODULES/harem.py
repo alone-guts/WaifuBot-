@@ -1,4 +1,4 @@
-from TEAMZYRO import *
+from WAIFU import *
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaPhoto, CallbackQuery
 from itertools import groupby
