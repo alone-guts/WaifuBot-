@@ -2,8 +2,8 @@ import asyncio
 from pyrogram import Client, filters, types as t
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from datetime import datetime, timedelta
-from TEAMZYRO import ZYRO as bot
-from TEAMZYRO import user_collection, collection, user_nguess_progress, user_guess_progress, SUPPORT_CHAT_ID as chat
+from WAIFU import BOT as bot
+from WAIFU import user_collection, collection, user_nguess_progress, user_guess_progress, SUPPORT_CHAT_ID as chat
 
 claim_lock = {}
 
