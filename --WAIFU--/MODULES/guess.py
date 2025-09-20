@@ -1,5 +1,5 @@
-TEAMZYRO import *
-from TEAMZYRO import application
+WAIFU import *
+from WAIFU import application
 from html import escape
 import asyncio
 import time
