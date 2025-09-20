@@ -50,7 +50,7 @@ OWNER_ID = int(os.getenv("6474226725", "@alone_berserk"))
 # --------------------- TELEGRAM BOT CONFIGURATION -----------------------
 command_filter = f.create(lambda _, __, message: message.text and message.text.startswith("/"))
 application = Application.builder().token(TOKEN).build()
-ZYRO = Client("Shivu", api_id=api_id, api_hash=api_hash, bot_token=TOKEN)
+ZYRO = Client("Waifubot", api_id=api_id, api_hash=api_hash, bot_token=TOKEN)
 
 # -------------------------- DATABASE SETUP ------------------------------
 ddw = AsyncIOMotorClient(mongo_url)
