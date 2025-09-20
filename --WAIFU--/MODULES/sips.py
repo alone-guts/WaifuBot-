@@ -1,4 +1,4 @@
-from TEAMZYRO import app, collection, rarity_map2 as rarity_map
+from WAIFU import app, collection, rarity_map2 as rarity_map
 from pyrogram import Client, filters, enums
 from pyrogram.enums import ParseMode
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
